@@ -19,6 +19,8 @@ A Program That Checks Discord Tokens, Removes The Duplicates And Sorts Them Base
 4. Run "MAIN.py"
 5. After The Program Finishes, All The Tokens Will Be Stored Inside The "OUTPUT/WORKING" Directory
 
+https://github.com/KARMA-BOI/PHELLOISY-TOKEN-CHECKER/assets/167853974/ff8271d6-18a1-4fc3-8794-41a23aa71b2b
+
 
 ## EDUCATIONAL PURPOSES DISCLAIMER
 This repository and its contents are provided strictly for educational purposes only. Any usage of the materials within this repository for commercial or non-educational purposes is not endorsed. The information, code samples, and documentation provided here are intended solely for learning and academic exploration.
