@@ -54,7 +54,7 @@ def main():
     os.system('cls')
     banner_print()
 
-    input("[>] PRESS ENTER TO START CHECKING")
+    input("[>] PRESS ENTER TO START THE PROGRAM")
     
 
     # Create a directory to store output files
@@ -105,8 +105,6 @@ def main():
 
     tokens, duplicate_tokens = delete_duplicate_starting_tokens(tokens)
 
-    print(GREY + "[>] STARTING CHECKING PROCCESS")
-    time.sleep(2)
     os.system('cls')
     banner_print()
     for token in tokens:
