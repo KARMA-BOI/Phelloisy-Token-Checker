@@ -18,4 +18,11 @@ A Program That Checks Discord Tokens, Removes The Duplicates And Sorts Them Base
 3. Put The Tokens You Want To Check In "INPUT/TOKENS.txt"
 4. Run "MAIN.py"
 5. After The Program Finishes, All The Tokens Will Be Stored Inside The "OUTPUT/WORKING" Directory
-  
+
+
+## EDUCATIONAL PURPOSES DISCLAIMER
+This repository and its contents are provided strictly for educational purposes only. Any usage of the materials within this repository for commercial or non-educational purposes is not endorsed. The information, code samples, and documentation provided here are intended solely for learning and academic exploration.
+
+No guarantees are made regarding the accuracy, completeness, or reliability of the information provided. Users are encouraged to independently verify the information and exercise their own judgment when utilizing any code or content from this repository.
+
+By accessing or using this repository, you agree to do so at your own risk and hold harmless the repository owner(s) and contributors from any damages or liabilities that may arise.
