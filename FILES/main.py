@@ -1,6 +1,8 @@
 import os
 import requests
 import time
+import ctypes
+
 
 # ANSI escape codes for colors
 GREEN = '\033[92m'
