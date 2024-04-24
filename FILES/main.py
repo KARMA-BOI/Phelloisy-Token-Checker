@@ -48,7 +48,7 @@ def delete_duplicate_starting_tokens(tokens):
     return [token for token in tokens if token not in duplicate_tokens], duplicate_tokens
 
 def main():
-    ctypes.windll.kernel32.SetConsoleTitleW("CREATED BY KARMA-BOI | RARANALL")
+    ctypes.windll.kernel32.SetConsoleTitleW("CREATED BY KARMA-BOI | PHELLOISY")
     os.system('cls')
     banner_print()
 
