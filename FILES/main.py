@@ -52,8 +52,7 @@ def main():
     banner_print()
 
     input("[>] PRESS ENTER TO START CHECKING")
-    os.system('cls')
-    banner_print()
+    
 
     # Create a directory to store output files
     output_directory_working = "OUTPUT\\WORKING"
@@ -61,17 +60,22 @@ def main():
     input_directory = "INPUT"
 
     if not os.path.exists(output_directory_working):
-        os.system('cls')
-        banner_print()
-        print("[>] OUTPUT DIRECTORY NON EXISTENT, CREATING ONE")
-        time.sleep(2)
         os.makedirs(output_directory_working)
-    elif not os.path.exists(output_directory_dead):
         os.system('cls')
         banner_print()
         print("[>] OUTPUT DIRECTORY NON EXISTENT, CREATING ONE")
         time.sleep(2)
+        os.system('cls')
+        banner_print()
+    if not os.path.exists(output_directory_dead):
         os.makedirs(output_directory_dead)
+        os.system('cls')
+        banner_print()
+        print("[>] OUTPUT DIRECTORY NON EXISTENT, CREATING ONE")
+        time.sleep(2)
+        os.system('cls')
+        banner_print()
+        
 
     # Clear the content of the output files
     open(os.path.join(output_directory_working, "NITRO.txt"), "w").close()
@@ -98,7 +102,10 @@ def main():
 
     tokens, duplicate_tokens = delete_duplicate_starting_tokens(tokens)
 
-
+    print(GREY + "[>] STARTING CHECKING PROCCESS")
+    time.sleep(2)
+    os.system('cls')
+    banner_print()
     for token in tokens:
         result = check_token(token)
         if "[+] NITRO TOKEN: " in result:
@@ -121,7 +128,7 @@ def main():
 
         os.system('cls')
         banner_print()
-        print(GREY + f"[>] DELETED {len(duplicate_tokens)} DUPLICATE TOKENS")
+        print(GREY + f"[>] DELETED {len(duplicate_tokens)} DUBLICATE TOKENS")
         time.sleep(2)
         os.system('cls')
         banner_print()
