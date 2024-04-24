@@ -121,7 +121,7 @@ def main():
 
         os.system('cls')
         banner_print()
-        print(GREY + f"[>] DELETED {len(duplicate_tokens)} DUBLICATE TOKENS")
+        print(GREY + f"[>] DELETED {len(duplicate_tokens)} DUPLICATE TOKENS")
         time.sleep(2)
         os.system('cls')
         banner_print()
